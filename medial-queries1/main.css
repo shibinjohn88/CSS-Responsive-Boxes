@@ -1,3 +1,77 @@
 body {
   background: blanchedalmond;
+
+}
+
+.container>div {
+  border: 1px solid black;
+}
+
+.container {
+  
+  display: grid;
+  row-gap: 10Px;
+  column-gap: 10px;
+  min-height: 100vh;
+  text-align: center;
+  
+ }
+ 
+ .a {
+   background-color: blue;
+   min-height: 10vh;
+   grid-row-start: 1;
+   grid-column-start: 1;
+   grid-column-end: 2;
+  
+ }
+ 
+ .b {
+   background-color: blueviolet;
+   min-height: 40vh;
+   grid-row-start: 2;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   padding: 50px;
+ }
+ 
+ .c {
+   background-color: aqua;
+   min-height: 10vh;
+   grid-row-start: 3;
+   grid-column-start: 1;
+   grid-column-end: 2;
+ }
+ 
+
+
+@media(min-width:600px)  {
+ 
+  .a {
+    background-color: blue;
+    min-height: 10vh;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+   
+  }
+  
+  .b {
+    background-color: blueviolet;
+    min-height: 40vh;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .c {
+    background-color: aqua;
+    min-height: 10vh;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  
+  
+
 }

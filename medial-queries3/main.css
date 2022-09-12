@@ -1,3 +1,162 @@
 body {
   background: peachpuff;
 }
+
+.container>div {
+  border: 1px solid black;
+}
+.container {
+ display: grid;
+ row-gap: 10Px;
+ column-gap: 10px;
+ height: 100vh;
+ text-align: center;
+
+  
+}
+
+.a {
+  background-color: blue;
+  min-height: 10vh;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+ 
+}
+
+.b {
+  background-color: blueviolet;
+  min-height: 10vh;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.c {
+  background-color: aqua;
+  min-height: 10vh;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.d {
+  background-color: brown;
+  min-height: 10vh;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+}
+
+.e {
+  background-color: yellow;
+  min-height: 10vh;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.f {
+  background-color: lightgreen;
+  min-height: 10vh;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+
+.g {
+  background-color: orangered;
+  min-height: 10vh;
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+}
+
+.h {
+  background-color: magenta;
+  min-height: 35vh;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+@media(min-width:600px)  {
+  
+  .a {
+    background-color: blue;
+    min-height: 10vh;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+   
+  }
+  
+  .b {
+    background-color: blueviolet;
+    min-height: 10vh;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .c {
+    background-color: aqua;
+    min-height: 10vh;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .d {
+    background-color: brown;
+    min-height: 10vh;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  
+  }
+  
+  .e {
+    background-color: yellow;
+    min-height: 10vh;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+  }
+  
+  .f {
+    background-color: lightgreen;
+    min-height: 10vh;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  
+  }
+  
+  .g {
+    background-color: orangered;
+    min-height: 10vh;
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  
+  }
+  
+  .h {
+    background-color: magenta;
+    min-height: 40vh;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  
+  }
+  
+  
+
+}
